@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6505aa9946fba354a8941d046c062c3c
+guid: 1e37a9be621012c4c818a02d537e0eac
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Boss_IDLE_0
+      name: NinjaTime_Collectible_0
       rect:
         serializedVersion: 2
         x: 0
@@ -118,14 +118,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41025acc405180b4eb2f0f85ff9acf0c
-      internalID: -496066727
+      spriteID: 407e9fbac7717eb4791a53bf87eab851
+      internalID: 448820171
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_IDLE_1
+      name: NinjaTime_Collectible_1
       rect:
         serializedVersion: 2
         x: 128
@@ -139,14 +139,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ff6e8a8576660142abc02c4a2275866
-      internalID: -760700317
+      spriteID: 241b57eed96f05f44beb559f662758d6
+      internalID: 1382905221
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_IDLE_2
+      name: NinjaTime_Collectible_2
       rect:
         serializedVersion: 2
         x: 256
@@ -160,14 +160,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff1e6e296d36a16498ca800fcfb748c5
-      internalID: -1888153420
+      spriteID: ec4d64c4c66524f46985ffdce6ae6446
+      internalID: 1557804698
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_IDLE_3
+      name: NinjaTime_Collectible_3
       rect:
         serializedVersion: 2
         x: 384
@@ -181,14 +181,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3def8424247fac94782a0bb714150819
-      internalID: -222736577
+      spriteID: 6fd7e02ab0c16814d9263c3d51a095eb
+      internalID: 115078377
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_IDLE_4
+      name: NinjaTime_Collectible_4
       rect:
         serializedVersion: 2
         x: 512
@@ -202,14 +202,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1be06f9b91d4d5844bdb81d058ea42f7
-      internalID: -1529689179
+      spriteID: 877dcde0cda6d854ab811953d17ae44c
+      internalID: -167920149
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_IDLE_5
+      name: NinjaTime_Collectible_5
       rect:
         serializedVersion: 2
         x: 640
@@ -223,14 +223,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea9c186623621134e9f28eb433e9360d
-      internalID: -1507082319
+      spriteID: f12fe9a88b0d9ec458b2546d315f4e75
+      internalID: 865628849
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_IDLE_6
+      name: NinjaTime_Collectible_6
       rect:
         serializedVersion: 2
         x: 768
@@ -244,14 +244,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4ad522a18cfba04b80730698e7bbd6d
-      internalID: 504323476
+      spriteID: 5f91c56e465d86345a9ad1fc6d499cef
+      internalID: 1574772978
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_IDLE_7
+      name: NinjaTime_Collectible_7
       rect:
         serializedVersion: 2
         x: 896
@@ -265,8 +265,134 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2044cd213d97d74d8cbe26be369d9e6
-      internalID: 1731685809
+      spriteID: 8288bb0655ea2db489dd2d27219d0937
+      internalID: 1847395263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaTime_Collectible_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e39e9685bebe02e4e996bcece8af1425
+      internalID: 588177413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaTime_Collectible_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d050e799f95eb545873a6bb29cc86bb
+      internalID: -959709233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaTime_Collectible_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7feae0a3251f3e041908e04157540342
+      internalID: 1312616177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaTime_Collectible_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8569475d024ec8342985efeb0bf597fd
+      internalID: -1326054574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaTime_Collectible_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6df8daa96425ee479147595ebb38227
+      internalID: -234818961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaTime_Collectible_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0daa8571d4ffef84e82a2fd5f08ae94b
+      internalID: 1894721604
       vertices: []
       indices: 
       edges: []
@@ -282,14 +408,20 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Boss_IDLE_1: -760700317
-      Boss_IDLE_6: 504323476
-      Boss_IDLE_0: -496066727
-      Boss_IDLE_2: -1888153420
-      Boss_IDLE_5: -1507082319
-      Boss_IDLE_7: 1731685809
-      Boss_IDLE_3: -222736577
-      Boss_IDLE_4: -1529689179
+      NinjaTime_Collectible_7: 1847395263
+      NinjaTime_Collectible_4: -167920149
+      NinjaTime_Collectible_13: 1894721604
+      NinjaTime_Collectible_3: 115078377
+      NinjaTime_Collectible_11: -1326054574
+      NinjaTime_Collectible_10: 1312616177
+      NinjaTime_Collectible_1: 1382905221
+      NinjaTime_Collectible_6: 1574772978
+      NinjaTime_Collectible_5: 865628849
+      NinjaTime_Collectible_0: 448820171
+      NinjaTime_Collectible_2: 1557804698
+      NinjaTime_Collectible_12: -234818961
+      NinjaTime_Collectible_9: -959709233
+      NinjaTime_Collectible_8: 588177413
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
