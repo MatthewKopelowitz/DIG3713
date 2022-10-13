@@ -1,0 +1,2 @@
+[NAME=Punching Dummy of Wisdom] Hey! You've gotta stop these guys from taking over the town!
+[NAME=Punching Dummy of Wisdom] Use WASD to move, the Space Bar to jump, and "r" to attack!
