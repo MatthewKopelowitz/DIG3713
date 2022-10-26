@@ -41,6 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Tiles1
+  - name: Midground_Tiles
     uniqueID: 136965723
+    locked: 0
+  - name: Midground_Tiles_Details
+    uniqueID: 3841321005
+    locked: 0
+  - name: Gameplay
+    uniqueID: 2991431573
+    locked: 0
+  - name: Foreground
+    uniqueID: 2794224627
     locked: 0
