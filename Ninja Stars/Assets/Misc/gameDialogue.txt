@@ -1,2 +1,13 @@
-[NAME=Punching Dummy of Wisdom] Hey! You've gotta stop these guys from taking over the town!
+[NAME=Punching Dummy of Wisdom] Welcome to the once-beautiful city of Kataro...
+[NAME=You] Once-beautiful?
+[NAME=Punching Dummy of Wisdom] Yes... After years of peace, a powerful ninja master, the Night Dragon, grew power-hungry and began growing an army...
+[NAME=Punching Dummy of Wisdom] They are called the Raiders of the Night Dragon. They have taken the people's land and money...
+[NAME=Punching Dummy of Wisdom] Those who do not comply are captured and held prisoner, while others have fled the city.
+[NAME=You] I was sent here by the Elder Master, himself, to help the people of this land.
+[NAME=Punching Dummy of Wisdom] You must be the young ninja we've heard about, let me show you the ropes!
 [NAME=Punching Dummy of Wisdom] Use WASD to move, the Space Bar to jump, and "r" to attack!
+[NAME=Punching Dummy of Wisdom] Collect the coins of the people scattered around the city, we will place it in our reserve.
+[NAME=Punching Dummy of Wisdom] AVOID the shurikens that have been imbued with the Night Dragon's magic...
+[NAME=Punching Dummy of Wisdom] ...and watch out for spikes used to keep out intruders.
+[NAME=Punching Dummy of Wisdom] Lastly, take out any Raiders that are patrolling.
+[NAME=Punching Dummy of Wisdom] Now GO! I will be around to help!
