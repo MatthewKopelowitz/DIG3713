@@ -1,0 +1,4 @@
+[NAME=Punching Dummy of Wisdom] Ah, it looks like you've crossed a Raider checkpoint flag...
+[NAME=Punching Dummy of Wisdom] Make sure you cross these whenever you see them!
+[NAME=Punching Dummy of Wisdom] Up ahead you'll see a Ninja Master health kit, collect these before you fight enemies and traverse dangerous obstacles.
+[NAME=Punching Dummy of Wisdom] Good luck, young ninja.

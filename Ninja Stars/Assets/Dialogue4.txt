@@ -1,0 +1,3 @@
+[NAME=Punching Dummy of Wisdom] Young ninja, you have done well... but this is where I bid you farewell.
+[NAME=Punching Dummy of Wisdom] The Night Dragon has summoned you, enter the portal and you'll be taken to his lair.
+[NAME=Punching Dummy of Wisdom] Remember your training... Good luck.
