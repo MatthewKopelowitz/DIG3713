@@ -10,6 +10,8 @@ public class projectileOfDeath : MonoBehaviour
 
     public GameObject spriteHolder;
     private float xPos;     //Original x position of sphere relative to player
+
+    public Animator animator;
     
 
     // Start is called before the first frame update
@@ -18,6 +20,8 @@ public class projectileOfDeath : MonoBehaviour
         attackSphere.SetActive(false);
 
         xPos = attackSphere.transform.localPosition.x;
+
+        animator = spriteHolder.GetComponent <Animator>();
         
     }
 
@@ -47,7 +51,9 @@ public class projectileOfDeath : MonoBehaviour
     IEnumerator TheAttackOfDeath()
     {
         attackSphere.SetActive(true);
+        animator.SetBool("isAttacking", true);
         yield return new WaitForSeconds(attackTime);
         attackSphere.SetActive(false);
+        animator.SetBool("isAttacking", false);
     }
 }
