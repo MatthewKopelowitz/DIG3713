@@ -23,7 +23,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Credits.unity
     guid: a5f4885f5fadb294da53756aa958a6b2
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Marko_Credits.unity
     guid: f7b5e35e482a4154eb905e521d7368d1
   m_configObjects: {}

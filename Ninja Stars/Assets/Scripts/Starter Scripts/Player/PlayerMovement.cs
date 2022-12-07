@@ -375,10 +375,10 @@ public class PlayerMovement : MonoBehaviour
             yield return new WaitForSeconds(1f);
             StartCoroutine(gsm.FadeOut());
 
-            yield return new WaitForSeconds(1f);
+            yield return new WaitForSeconds(0.85f);
             gm.Respawn(gameObject);
             StartCoroutine(gsm.FadeIn());
-            yield return new WaitForSeconds(1f);
+            //yield return new WaitForSeconds(0.5f);
             GetComponent<PlayerHealth>().ResetHealth();
             disabled = false;
             PlayerAnimator.SetBool("isDead", false);
