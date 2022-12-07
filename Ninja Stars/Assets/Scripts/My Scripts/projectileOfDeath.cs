@@ -12,7 +12,8 @@ public class projectileOfDeath : MonoBehaviour
     private float xPos;     //Original x position of sphere relative to player
 
     public Animator animator;
-    
+
+    public PlayerAudio playerAudio;
 
     // Start is called before the first frame update
     void Start()
@@ -22,7 +23,9 @@ public class projectileOfDeath : MonoBehaviour
         xPos = attackSphere.transform.localPosition.x;
 
         animator = spriteHolder.GetComponent <Animator>();
-        
+
+        playerAudio = GetComponent<PlayerAudio>();
+
     }
 
     // Update is called once per frame
@@ -46,6 +49,7 @@ public class projectileOfDeath : MonoBehaviour
     void Attack()
     {
         StartCoroutine(TheAttackOfDeath());
+        playerAudio.AttackSource.Play();
     }
 
     IEnumerator TheAttackOfDeath()

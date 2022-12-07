@@ -13,6 +13,7 @@ public class PlayerHealth : MonoBehaviour
 
     [Tooltip("The current health the player has")]
     public int currentHealth;
+    public int oldHealth;
 
     [Tooltip("If you're using segmented health, this is gameObject that holds your health icons as its children")]
     public GameObject HealthBarSegments;
@@ -36,10 +37,24 @@ public class PlayerHealth : MonoBehaviour
 
     private PlayerMovement playerMovement;
 
+    public PlayerAudio playerAudio;
+
+
+
+    public AudioClip hurtAudioClip;
+    public AudioSource HurtSource;
+
     void Start()
     {
        SetUpHealth();
        playerMovement = GetComponent<PlayerMovement>();
+
+        GameObject HurtGameObject = new GameObject("HurtAudioSource");
+        HurtSource = HurtGameObject.AddComponent<AudioSource>();
+
+        playerAudio = GetComponent<PlayerAudio>();
+
+
     }
 
     public void SetUpHealth()
@@ -55,6 +70,7 @@ public class PlayerHealth : MonoBehaviour
                 TempHearts.Add(child.gameObject);
             }
             currentHealth = TempHearts.Count;
+            oldHealth = currentHealth;
         }
         else
         {
@@ -228,5 +244,16 @@ public class PlayerHealth : MonoBehaviour
             }
         }
 
+    }
+
+    void Update()
+    {
+        if (currentHealth < oldHealth)
+        {
+            playerAudio.HurtSource.Play();
+        }
+
+        oldHealth = currentHealth;
+        
     }
 }
